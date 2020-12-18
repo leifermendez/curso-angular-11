@@ -1,8 +1,10 @@
 ## Aprende ANGULAR desde cero y mucho más
 ##### Curso de Angular 11
-Hola que tal a todos, este repositorio pertenece al proyecto que se fue desarrollando en el curso de Angular desde Cero VER YOU.
+> Hola que tal a todos, este repositorio pertenece al proyecto que se fue desarrollando en el curso de Angular desde Cero VER YOU.
 
-El propósito de este curso es enseñar desde CERO como hacer uso he implementación de las diferentes características que incorpora Angular para desarrollar proyectos asombrosos.
+> El propósito de este curso es enseñar desde CERO como hacer uso he implementación de las diferentes características que incorpora Angular para desarrollar proyectos asombrosos.
+
+#### Temario
 
 - __🔴 ¿Cómo INSTALAR ANGULAR en WINDOWS 10? rápidamente 5 minutos?__
 - __🔴 ¿Cómo CREAR UN PROYECTO EN ANGULAR? en 5 minutos?__
@@ -15,7 +17,10 @@ El propósito de este curso es enseñar desde CERO como hacer uso he implementac
 - __🔴 PARTE #1 ¿Cómo crear FORMULARIOS REACTIVOS en Angular?__
 - __🔴 PARTE#2 Angular FORMULARIOS REACTIVOS ¿Como crear validación Dinámica mostrar mensajes de error?__
 - 
-----
+
+
+#### Capturas de pantalla del proyecto
+
 ![](https://i.imgur.com/6Dl7lZR.png)
 
 ![](https://i.imgur.com/zdktxiP.png)
