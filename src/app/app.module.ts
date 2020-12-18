@@ -10,6 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { PostDetailComponent } from './post-detail/post-detail.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ListViewsComponent } from './list-views/list-views.component';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 @NgModule({
   declarations: [
@@ -18,14 +20,16 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     CardComponent,
     SidebarComponent,
     PostDetailComponent,
-    HomeComponent
+    HomeComponent,
+    ListViewsComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     FormsModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgxDatatableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

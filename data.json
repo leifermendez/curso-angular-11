@@ -5,8 +5,8 @@
       "image": "https://images.unsplash.com/photo-1528901166007-3784c7dd3653?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "title": "VIDEO #1 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
-      "status":"public",
-      "views":100,
+      "status": "public",
+      "views": 100,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -17,8 +17,8 @@
       "image": "https://images.unsplash.com/photo-1511376777868-611b54f68947?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "title": "VIDEO #2 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
-      "status":"public",
-       "views":100,
+      "status": "public",
+      "views": 111,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -29,8 +29,8 @@
       "image": "https://images.unsplash.com/photo-1581893106728-1e2197903b0a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "title": "VIDEO #3 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
-      "status":"public",
-       "views":100,
+      "status": "public",
+      "views": 123,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -41,8 +41,8 @@
       "image": "https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       "title": "VIDEO #4 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
-      "status":"public",
-       "views":100,
+      "status": "public",
+      "views": 3,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -53,8 +53,8 @@
       "image": "https://images.unsplash.com/photo-1607294846590-fd005d7973e8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1126&q=80",
       "title": "VIDEO #5 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
-      "status":"public",
-       "views":100,
+      "status": "public",
+      "views": 100,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -84,6 +84,10 @@
     {
       "text": "Hola mundo subscribete!!!",
       "id": 5
+    },
+    {
+      "text": "Text",
+      "id": 6
     }
   ]
 }

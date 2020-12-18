@@ -1,0 +1,38 @@
+<app-header *ngIf="mode === 'page'"></app-header>
+<div class="">
+    <h3 class="table">
+      Live Data Demo
+    
+
+    </h3>
+    <ngx-datatable
+    class="material"
+    [rows]="data"
+    [columns]="cols"
+    [columnMode]="ColumnMode.force"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    rowHeight="auto"
+  >
+  </ngx-datatable>
+
+    <ng-template #hdrTpl let-column="column">{{ column.name }}</ng-template>
+
+    <ng-template #imageTmpl let-row="row" let-column="column" let-value="value">
+        <img class="video-image" [src]="value"  />
+    </ng-template>
+
+    <ng-template #titleTmpl let-row="row" let-column="column" let-value="value">
+        <div [routerLink]="['/','post',row?.id]">
+            <div class="title">{{row?.title}}</div>
+            <div class="subtitle">{{row?.subtitle}}</div>
+        </div>
+    </ng-template>
+
+    <ng-template #viewTmpl let-row="row" let-column="column" let-value="value">
+        <div>
+            <div class="">{{value}}</div>
+        </div>
+    </ng-template>
+
+  </div>
