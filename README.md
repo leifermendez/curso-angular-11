@@ -1,6 +1,6 @@
 ## Aprende ANGULAR desde cero y mucho más
 ##### Curso de Angular 11
-> Hola que tal a todos, este repositorio pertenece al proyecto que se fue desarrollando en el curso de Angular desde Cero VER YOU.
+> Hola que tal a todos, este repositorio pertenece al proyecto que se fue desarrollando en el curso de Angular desde Cero __[VER CURSO](https://youtube.com/playlist?list=PL_WGMLcL4jzVY1y-SutA3N_PCNCAG7Y46)__
 
 > El propósito de este curso es enseñar desde CERO como hacer uso he implementación de las diferentes características que incorpora Angular para desarrollar proyectos asombrosos.
 
@@ -18,6 +18,7 @@
 - __🔴 PARTE#2 Angular FORMULARIOS REACTIVOS ¿Como crear validación Dinámica mostrar mensajes de error?__
 - 
 
+__[VER CURSO](https://youtube.com/playlist?list=PL_WGMLcL4jzVY1y-SutA3N_PCNCAG7Y46)__
 
 #### Capturas de pantalla del proyecto
 
