@@ -1,0 +1,110 @@
+.wrapper{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+}
+
+.block-one{
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 65%;
+    /* background-color: red; */
+}
+
+.block-two{
+    width: 35%;
+    /* background-color: green; */
+}
+
+.image-video{
+    border-radius: .15rem;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+}
+.wrapper-info{
+    padding-top: .5rem;
+    /* padding: .25rem; */
+}
+.title{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.content{
+    width: 100%;
+}
+.subtitle{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.date{
+    font-size: .85rem;
+    color: grey;
+    padding-top: .5rem;
+}
+
+.comment-list{
+    padding-bottom: 1.5rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.5rem;
+    list-style: none;
+}
+
+.comment-list li{
+    display: flex;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: 0;
+    border-bottom: solid 1px #f1f1f1;
+}
+.comment-list li:last-child{
+    border-bottom: solid 1px transparent;
+}
+.comment-list li .author{
+    padding: .5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: .5rem;
+}
+
+.comment-list li .content{
+    color: #363636;
+}
+
+.name-author{
+    background-color: #dbdbdb;
+    border-radius: 3px;
+    width: min-content;
+    padding: .2rem;
+    font-weight: 600;
+    margin-bottom: .25rem;
+}
+.author .avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.text-comment{
+    width: 100%;
+    border: solid 1px #eaeaea;
+    resize: none;
+    background-color: #ffffff;
+    box-shadow: 0 0px 3.3px rgba(0, 0, 0, 0.03), 0 0px 26px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1rem;
+}
+
+.title-comment{
+    padding-top: .35rem;
+    padding-bottom: .35rem;
+    font-weight: 600;
+}
+
+.button{
+    padding:.5rem;
+    border:solid 1px #eaeaea;
+    border-radius:.15rem;
+}

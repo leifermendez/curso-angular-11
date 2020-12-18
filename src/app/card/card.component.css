@@ -1,0 +1,31 @@
+.card{
+    width: 100%;
+    min-height: 5rem;
+    cursor: pointer;
+    /* padding: 1rem;
+    margin: .5rem; */
+}
+
+.card .image{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.sub-title{
+    font-size: .9rem;
+}
+
+.favorite{
+    padding:.5rem;
+    border:solid 1px #eaeaea;
+    border-radius:.15rem;
+}
+.wrapper-text{
+    padding: .5rem;
+}

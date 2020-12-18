@@ -1,0 +1,40 @@
+<app-header></app-header>
+<div class="wrapper">
+    <div class="block-one">
+        <div>
+            <img class="image-video" [src]="respuesta?.image" alt="">
+        </div>
+        <div class="wrapper-info">
+            <div class="title">{{respuesta?.title}}</div>
+            <div class="subtitle">{{respuesta?.subtitle}}</div>
+            <div class="date">1490 visualizaciones•22 jun 2020</div>
+        </div>
+    </div>
+    <div class="block-two">
+        <div>
+            <ul class="comment-list">
+                <li *ngFor="let detalleComentario of comentarios">
+                    <div class="author">
+                    
+                        <img class="avatar" src="https://avatars3.githubusercontent.com/u/15802366?s=460&u=59125ba37dfb5f0e87ee5f8c83280c88129a8881&v=4" alt="">
+                        
+                    </div>
+                    <div class="content">
+                       <b><div>Leifer</div></b> {{detalleComentario?.text}}
+                    </div>
+                </li>
+            </ul>
+            <div>
+                <form [formGroup]="form" (submit)="enviarData()">
+                    <div class="form-group">
+                      <div for="commentArea" class="title-comment">Comentar</div>
+                      <textarea formControlName="textAreaComentario" class="text-comment" id="commentArea" rows="8"></textarea>
+                      <div>
+                          <button class="button">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
