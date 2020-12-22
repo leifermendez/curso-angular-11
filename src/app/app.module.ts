@@ -12,6 +12,9 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ListViewsComponent } from './list-views/list-views.component';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { CookieService } from 'ngx-cookie-service';
+import { LoginComponent } from './login/login.component';
+import { MostrarMilesPipe } from './mostrar-miles.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,9 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     SidebarComponent,
     PostDetailComponent,
     HomeComponent,
-    ListViewsComponent
+    ListViewsComponent,
+    LoginComponent,
+    MostrarMilesPipe
   ],
   imports: [
     BrowserModule,
@@ -31,7 +36,7 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     ReactiveFormsModule,
     NgxDatatableModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

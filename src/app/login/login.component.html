@@ -1,0 +1,19 @@
+<app-header></app-header>
+<div class="wrapper">
+    <form class="form" [formGroup]="form" (submit)="enviarDatos()">
+        <div class="w-100 pb-2">
+            <h2>Iniciar sesion</h2>
+        </div>
+       <div class="w-100 pb-2">
+        <label class="pb-1" for="">Email</label>
+        <input formControlName="email" class="input-form" type="text">
+       </div>
+       <div class="w-100 pb-2">
+        <label class="pb-1" for="">Contraseña</label>
+        <input formControlName="password" class="input-form" type="password">
+       </div>
+       <div class="w-100 pb-2">
+        <button [disabled]="form.invalid" class="button">Entrar</button>
+       </div>
+    </form>
+</div>

@@ -6,7 +6,7 @@
       "title": "VIDEO #1 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
       "status": "public",
-      "views": 100,
+      "views": 124124214,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -18,7 +18,7 @@
       "title": "VIDEO #2 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
       "status": "public",
-      "views": 111,
+      "views": 1432423411,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -30,7 +30,7 @@
       "title": "VIDEO #3 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
       "status": "public",
-      "views": 123,
+      "views": 132123,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -42,7 +42,7 @@
       "title": "VIDEO #4 Como aprender ANGULAR 1",
       "subtitle": "Aprende rapidamente como programar en angular",
       "status": "public",
-      "views": 3,
+      "views": 32,
       "author": {
         "name": "Leifer Mendez",
         "author": ""
@@ -61,33 +61,12 @@
       }
     }
   ],
-  "comments": [
+  "comments": [],
+  "users": [
     {
-      "id": 1,
-      "text": "Hola mundo!!",
-      "author": {
-        "name": "Leifer Mendez"
-      }
-    },
-    {
-      "text": "Este es el comentario",
-      "id": 2
-    },
-    {
-      "text": "Este es el comentario !!!",
-      "id": 3
-    },
-    {
-      "text": "Este es otro comentarioooooooooo",
-      "id": 4
-    },
-    {
-      "text": "Hola mundo subscribete!!!",
-      "id": 5
-    },
-    {
-      "text": "Text",
-      "id": 6
+      "email": "leifer33@gmail.com",
+      "password": "$2a$10$Uc6Nmjt82gxlAt0umMtxpug2X.OapxZqEesH8leydtkkfKyX8bvq6",
+      "id": 1
     }
   ]
 }
