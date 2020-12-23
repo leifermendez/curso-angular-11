@@ -28,7 +28,7 @@
                 <form [formGroup]="form" (submit)="enviarData()">
                     <div class="form-group">
                       <div for="commentArea" class="title-comment">Comentar</div>
-                      <textarea formControlName="textAreaComentario" class="text-comment" id="commentArea" rows="8"></textarea>
+                      <textarea appMyFocus formControlName="textAreaComentario" class="text-comment" id="commentArea" rows="8"></textarea>
                       <div>
                           <button class="button">Enviar</button>
                       </div>

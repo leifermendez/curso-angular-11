@@ -19,7 +19,7 @@
     <ng-template #hdrTpl let-column="column">{{ column.name }}</ng-template>
 
     <ng-template #imageTmpl let-row="row" let-column="column" let-value="value">
-        <img class="video-image" [src]="value"  />
+        <img appImagenRota class="video-image" [src]="value"  />
     </ng-template>
 
     <ng-template #titleTmpl let-row="row" let-column="column" let-value="value">

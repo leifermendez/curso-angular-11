@@ -15,6 +15,10 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { CookieService } from 'ngx-cookie-service';
 import { LoginComponent } from './login/login.component';
 import { MostrarMilesPipe } from './mostrar-miles.pipe';
+import { SoloMobileDirective } from './solo-mobile.directive';
+import { SinImageDirective } from './sin-image.directive';
+import { MyFocusDirective } from './my-focus.directive';
+import { ImagenRotaDirective } from './imagen-rota.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { MostrarMilesPipe } from './mostrar-miles.pipe';
     HomeComponent,
     ListViewsComponent,
     LoginComponent,
-    MostrarMilesPipe
+    MostrarMilesPipe,
+    SoloMobileDirective,
+    SinImageDirective,
+    MyFocusDirective,
+    ImagenRotaDirective
   ],
   imports: [
     BrowserModule,
