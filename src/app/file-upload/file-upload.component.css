@@ -1,0 +1,34 @@
+.input-file{
+    background-color: transparent;
+    position: relative;
+    height: 200px;
+    border:solid 1px rgb(228, 228, 132228);
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+
+.input-file:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #f6f6f6;
+    background-image: url('../../assets/images/subir.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+
+}
+
+.wrapper-button{
+    padding-top: 1rem;
+    width: 100%;
+}
+
+.w-100{
+    width: 100%;
+}

@@ -1,3 +1,4 @@
+import { UploadPageComponent } from './upload-page/upload-page.component';
 import { LoginComponent } from './login/login.component';
 import { VigilanteGuard } from './vigilante.guard';
 import { NgModule } from '@angular/core';
@@ -18,6 +19,11 @@ const routes: Routes = [
   {
     path: 'list-videos',
     component: ListViewsComponent,
+    canActivate: [VigilanteGuard]
+  },
+  {
+    path: 'upload',
+    component: UploadPageComponent,
     canActivate: [VigilanteGuard]
   },
   {

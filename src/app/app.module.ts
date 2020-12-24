@@ -19,6 +19,9 @@ import { SoloMobileDirective } from './solo-mobile.directive';
 import { SinImageDirective } from './sin-image.directive';
 import { MyFocusDirective } from './my-focus.directive';
 import { ImagenRotaDirective } from './imagen-rota.directive';
+import { SubirArchivoComponent } from './subir-archivo/subir-archivo.component';
+import { UploadPageComponent } from './upload-page/upload-page.component';
+import { FileUploadComponent } from './file-upload/file-upload.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { ImagenRotaDirective } from './imagen-rota.directive';
     SoloMobileDirective,
     SinImageDirective,
     MyFocusDirective,
-    ImagenRotaDirective
+    ImagenRotaDirective,
+    SubirArchivoComponent,
+    UploadPageComponent,
+    FileUploadComponent
   ],
   imports: [
     BrowserModule,

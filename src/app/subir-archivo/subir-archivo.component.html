@@ -1,0 +1,17 @@
+
+<input type="file" id="file" class="input-file" 
+(change)="onFileSelected($event)">
+
+<div>
+    <label for="">Preview</label>
+    <div>
+        <img width="100px" [src]="imagenPrevia" alt="">
+    </div>
+</div>
+
+<div class="wrapper-button">
+    <button class="w-100" [disabled]="loading" (click)="loadImages()">
+
+        {{(loading) ? 'Cargando...' : 'Subir'}}
+    </button>
+</div>
