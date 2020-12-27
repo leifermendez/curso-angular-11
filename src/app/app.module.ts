@@ -22,6 +22,7 @@ import { ImagenRotaDirective } from './imagen-rota.directive';
 import { SubirArchivoComponent } from './subir-archivo/subir-archivo.component';
 import { UploadPageComponent } from './upload-page/upload-page.component';
 import { FileUploadComponent } from './file-upload/file-upload.component';
+import { OnlySessionDirective } from './only-session.directive';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { FileUploadComponent } from './file-upload/file-upload.component';
     ImagenRotaDirective,
     SubirArchivoComponent,
     UploadPageComponent,
-    FileUploadComponent
+    FileUploadComponent,
+    OnlySessionDirective
   ],
   imports: [
     BrowserModule,
